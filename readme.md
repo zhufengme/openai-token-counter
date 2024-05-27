@@ -18,9 +18,9 @@
 
 你可以直接从Docker Hub拉取并运行已经构建好的镜像：
 
-    ```bash
-    docker run -d -p 5002:5002 --name openai-token-counter --restart=always andiezhu/openai-token-counter
-    ```
+```bash
+docker run -d -p 5002:5002 --name openai-token-counter --restart=always andiezhu/openai-token-counter
+```
 
 ### 构建本地Docker镜像
 
